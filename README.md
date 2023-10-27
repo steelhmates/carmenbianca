@@ -4,7 +4,7 @@ Augmented Bible for the easy generation of Augmented Audio Bible and Augmented V
 
 Bible texts from the **Original Douay Rheims** Bible.
 
-A new PDF at https://gitlab.com/simple-gui/xml2gui-bible
+New PDF at https://gitlab.com/simple-gui/xml2gui-bible
 
 Old PDF at https://archive.org/
 
