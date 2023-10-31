@@ -1,6 +1,6 @@
 body {
-	font-size: 24px;
-	background-color: #f4f4f4;
+	font-size: 20px;
+	/* background-color: #f4f4f4; */
 }
 .verify {
 	color: red;
@@ -31,11 +31,11 @@ li .roleText {
 	color: black;
 }
 li:nth-child(even) .roleText {
-	background-color: #50c878;
+	background-color: #c5e3fc;
 	border-radius: 1rem 1rem 0 1rem;
 }
 li:nth-child(odd) .roleText {
-	background-color: #42a5f5;
+	background-color: #dcf5e3;
 	border-radius: 1.5rem 1.5rem 1.5rem 0;
 }
 
