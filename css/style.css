@@ -18,7 +18,7 @@ li .role {
 li:nth-child(even) .role {
 	float: right;
 	text-align: right;
-	width: 40%;
+	width: 60%;
 }
 li:nth-child(odd) .role {
 	float: left;
