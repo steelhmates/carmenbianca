@@ -20,8 +20,7 @@ function getColor(role) {
 $(document).ready(function(){
 	if ($('.role')) {
 		var pageStr = $('#page').attr('name');
-		var page = parseInt(pageStr, 10);
-		var nUrl = '../roles/'+page+'.txt';
+		var nUrl = '../roles/'+pageStr+'.txt';
 		$.ajax({type: 'GET', url: nUrl, async: true,
 			success: function(result) {
 				var list = result.replace("\r", "").split('\n');
