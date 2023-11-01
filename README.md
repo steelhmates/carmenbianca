@@ -8,7 +8,7 @@ https://olprint.codeberg.page/Augmented-Bible/@main
 ![Augmented Bible](https://codeberg.org/olprint/Augmented-Bible/raw/branch/main/images/sh0.png)
 
 ---
-Bible texts from the **Original Douay Rheims** Bible.  
+Bible texts from the <i>Original Douay Rheims Bible</i>.  
 New PDF at https://gitlab.com/simple-gui/xml2gui-bible  
 Old PDF at https://archive.org/
 
