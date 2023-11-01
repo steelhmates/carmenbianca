@@ -18,7 +18,14 @@ function getColor(role) {
 	return c;
 }
 $(document).ready(function(){
+  
 	if ($('.role')) {
+		
+		var jsFile=document.createElement('script');
+		jsFile.setAttribute("type","text/javascript");
+		jsFile.setAttribute("src", '../js/script.js');
+		document.getElementsByTagName("head")[0].appendChild(jsFile);
+		
 		var pageStr = $('#page').attr('name');
 		var nUrl = '../roles/'+pageStr+'.txt';
 		$.ajax({type: 'GET', url: nUrl, async: true,
