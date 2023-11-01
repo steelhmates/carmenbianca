@@ -1,6 +1,6 @@
 ## Augmented Bible (v0.0.2)
 
-### Augmented Bible for the easy generation of Augmented Audio Bible and Augmented Video Bible.
+Augmented Bible for the easy generation of Augmented Audio Bible and Augmented Video Bible.
 
 ---
 ### https://olprint.codeberg.page/Augmented-Bible/@main
