@@ -1,4 +1,4 @@
-## Augmented Bible (v0.1.1)
+## Augmented Bible (v0.1.3)
 
 Augmented Bible for the easy generation of Augmented Audio Bible and Augmented Video Bible.
 

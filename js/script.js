@@ -20,14 +20,12 @@ function getColor(role) {
 $(document).ready(function(){
 	if ($('.role')) {
 		var pageStr = $('#page').attr('name');
-		print(pageStr);
 		var page = parseInt(pageStr, 10);
 		var nUrl = '../roles/'+page+'.txt';
 		$.ajax({type: 'GET', url: nUrl, async: true,
 			success: function(result) {
 				var list = result.replace("\r", "").split('\n');
 				var lDoc = $('.role');
-				print(lDoc.length);
 				for (i=0; i<Math.min(lDoc.length, list.length); i++) {
 					var role = list[i].trim(); // Trim required.
 					var rText = lDoc.eq(i).find('.roleText').first();
